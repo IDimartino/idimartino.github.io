@@ -559,7 +559,7 @@
     display: flex;
     align-items: center;
     gap: 6px;
-    padding: 8px 16px;
+    padding: 8px 14px;
     border: none;
     border-radius: 9px;
     font-family: 'Inter', sans-serif;
@@ -590,6 +590,7 @@
 
   /* Language visibility */
   .lang-fr { display: none; }
+  .lang-es { display: none; }
   .lang-en { display: contents; }
 
   @media print {
@@ -613,6 +614,9 @@
   </button>
   <button class="lang-toggle-btn" id="btn-fr" onclick="switchLang('fr')" aria-pressed="false" title="Passer en français">
     <span class="flag">🇫🇷</span> FR
+  </button>
+  <button class="lang-toggle-btn" id="btn-es" onclick="switchLang('es')" aria-pressed="false" title="Cambiar a español">
+    <span class="flag">🇪🇸</span> ES
   </button>
 </div>
 
@@ -1450,29 +1454,459 @@
 </div><!-- end lang-fr -->
 
 
+<!-- ===================== SPANISH VERSION ===================== -->
+<div class="lang-es" id="resume-es">
+
+<!-- ===================== PAGE 1 ===================== -->
+<div class="page">
+
+  <aside class="sidebar">
+
+    <div class="profile-header">
+      <div class="profile-photo">
+        <img src="photo.png" alt="Ismael Di Martino">
+      </div>
+      <div class="profile-name">
+        ISMAEL<br>DI MARTINO
+        <span>Senior Android Engineer</span>
+      </div>
+      <div class="profile-badge">🟢 Disponible · Full Remote</div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Contacto</div>
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div>
+          <div class="contact-label">Ubicación</div>
+          <div class="contact-value">París, Francia</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">✉️</div>
+        <div>
+          <div class="contact-label">Email</div>
+          <div class="contact-value">dimartino.pro@hotmail.com</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📱</div>
+        <div>
+          <div class="contact-label">Teléfono</div>
+          <div class="contact-value">+33 7 76 55 61 76</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Perfiles en Línea</div>
+      <div class="link-item">
+        <div class="link-label">LinkedIn</div>
+        <a class="link-url" href="https://www.linkedin.com/in/ismael-di-martino-senior-android-developer/">linkedin.com/in/ismael-di-martino-senior-android-developer</a>
+      </div>
+      <div class="link-item">
+        <div class="link-label">Malt</div>
+        <a class="link-url" href="https://www.malt.fr/profile/ismaeldimartino">malt.fr/profile/ismaeldimartino</a>
+      </div>
+      <div class="link-item">
+        <div class="link-label">GitHub</div>
+        <a class="link-url" href="https://github.com/IDimartino">github.com/IDimartino</a>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Formación</div>
+      <div class="edu-item">
+        <div class="edu-degree">Máster en Ingeniería Informática</div>
+        <div class="edu-school">SUPINFO International University</div>
+        <div class="edu-detail">Lyon, Francia · 2010–2015</div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Certificación</div>
+      <div class="cert-item">
+        <div class="cert-name">Arquitectura Android Multi-Módulo</div>
+        <div class="cert-issuer">Philipp Lackner</div>
+        <div class="cert-detail">Modularización avanzada y diseño escalable de apps</div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Idiomas</div>
+      <div class="lang-grid">
+        <div class="lang-item">
+          <span class="lang-name">Francés</span>
+          <div class="lang-dots">
+            <span class="lang-dot filled"></span><span class="lang-dot filled"></span><span class="lang-dot filled"></span><span class="lang-dot filled"></span><span class="lang-dot filled"></span>
+          </div>
+        </div>
+        <div class="lang-item">
+          <span class="lang-name">Inglés</span>
+          <div class="lang-dots">
+            <span class="lang-dot filled"></span><span class="lang-dot filled"></span><span class="lang-dot filled"></span><span class="lang-dot filled"></span><span class="lang-dot filled"></span>
+          </div>
+        </div>
+        <div class="lang-item">
+          <span class="lang-name">Español</span>
+          <div class="lang-dots">
+            <span class="lang-dot filled"></span><span class="lang-dot filled"></span><span class="lang-dot filled"></span><span class="lang-dot"></span><span class="lang-dot"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Intereses</div>
+      <p class="interests-text">Apasionado por el crecimiento personal a través de la meditación, la respiración y el coaching. Comprometido con la resiliencia y el intercambio de conocimientos.</p>
+    </div>
+
+  </aside>
+
+  <main class="main">
+
+    <div class="main-header">
+      <div class="main-title">Perfil Profesional</div>
+      <div class="main-subtitle">+12 Años · Consultor Freelance · Full Remote</div>
+      <p class="summary-text">
+        Ingeniero Android Senior con <strong>más de 12 años</strong> de experiencia en el diseño y despliegue de aplicaciones móviles de alto rendimiento en <strong>fintech, e-commerce, navegación y educación</strong>. Especializado en <strong>Kotlin</strong>, <strong>Jetpack Compose</strong> y <strong>KMP</strong> para desarrollo multiplataforma. Amplia experiencia en <strong>system design</strong> y arquitecturas escalables. Arquitecto de la aplicación fintech <strong>Kard</strong> (<strong>100K+ descargas</strong>). Experiencia creciente en <strong>integración IA/LLM</strong>, experto en colaboración con equipos distribuidos y multidisciplinarios, entregando soluciones de alto impacto en diferentes zonas horarias.
+      </p>
+      <div class="highlight-chips">
+        <span class="highlight-chip"><span class="chip-icon">🏆</span> 100K+ Descargas</span>
+        <span class="highlight-chip"><span class="chip-icon">🏗️</span> System Design</span>
+        <span class="highlight-chip"><span class="chip-icon">🌍</span> Full Remote</span>
+        <span class="highlight-chip"><span class="chip-icon">🔀</span> Experto KMP</span>
+        <span class="highlight-chip"><span class="chip-icon">📐</span> Clean Architecture</span>
+        <span class="highlight-chip ai-chip"><span class="chip-icon">🤖</span> IA / LLM</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Fortalezas Clave & Experiencia</div>
+      <div class="strengths-grid">
+        <div class="strength-item">
+          <div class="strength-icon">🎯</div>
+          <span><strong>+12 años</strong> de consultoría freelance, entregando aplicaciones Android complejas en fintech, e-commerce y navegación — <strong>15+ apps publicadas</strong></span>
+        </div>
+        <div class="strength-item">
+          <div class="strength-icon">🏗️</div>
+          <span>Historial probado en la <strong>arquitectura de apps desde cero</strong>, incluyendo Kard (<strong>100K+ descargas, 4.5★</strong>) y múltiples apps en producción</span>
+        </div>
+        <div class="strength-item">
+          <div class="strength-icon">⚙️</div>
+          <span>Sólidas competencias en <strong>system design</strong> — arquitecturas móviles escalables, estrategias offline-first, capas de caché y pipelines de datos</span>
+        </div>
+        <div class="strength-item">
+          <div class="strength-icon">🔀</div>
+          <span>Experto en <strong>Kotlin Multiplatform (KMP)</strong>, código compartido Android/iOS — <strong>~40% de reutilización</strong> de código alcanzado</span>
+        </div>
+        <div class="strength-item">
+          <div class="strength-icon ai-icon">🤖</div>
+          <span><strong>Experiencia en IA/LLM</strong> — colaboración con líderes de IA en evaluación de modelos generativos, prompt engineering y calidad del código</span>
+        </div>
+        <div class="strength-item">
+          <div class="strength-icon">🌍</div>
+          <span>Amplia experiencia en <strong>colaboración full-remote</strong> con equipos internacionales; perfil emprendedor</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Experiencia Profesional</div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">Consultor IA / LLM 🤖</div>
+            <div class="exp-role">IA Generativa · Evaluación de Código · Freelance</div>
+          </div>
+          <span class="exp-date">2024–Presente · Remote</span>
+        </div>
+        <div class="exp-stack"><strong>Stack:</strong> Evaluación LLM · Prompt Engineering · Revisión de Código · Kotlin</div>
+        <ul class="exp-bullets">
+          <li>Contribución a proyectos de <strong>entrenamiento y evaluación de IA</strong>, aportando retroalimentación técnica experta sobre la generación y calidad del código para modelos de IA generativa</li>
+          <li>Aplicación de la experiencia en <strong>Android/Kotlin</strong> para evaluar, revisar y mejorar las salidas de código generadas por IA en múltiples proyectos</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">MAIA</div>
+            <div class="exp-role">Ingeniero Android Senior · KMP · Freelance</div>
+          </div>
+          <span class="exp-date">2025 · Remote</span>
+        </div>
+        <div class="exp-stack"><strong>Stack:</strong> KMP · Compose · MVVM · Coroutines · StateFlow · Room · System Design</div>
+        <ul class="exp-bullets">
+          <li>Diseño y desarrollo <strong>desde cero de una aplicación multiplataforma</strong> para una plataforma educativa española mediante Kotlin Multiplatform</li>
+          <li>Arquitectura MVVM escalable con lógica de negocio compartida, <strong>reducción de ~40% en la duplicación de código</strong> entre Android e iOS</li>
+          <li>Implementación de gestión de estado reactiva con capacidades offline-first — <strong>0 bugs críticos</strong> en el lanzamiento</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">My Jungly</div>
+            <div class="exp-role">Ingeniero Android Senior · Freelance</div>
+          </div>
+          <span class="exp-date">2021–2024 · Remote</span>
+        </div>
+        <div class="exp-stack"><strong>Stack:</strong> Compose · MVVM · Coroutines · Room · Tests Unitarios · Material Design 3</div>
+        <ul class="exp-bullets">
+          <li>Desarrollo <strong>desde cero de una app fintech segura</strong> para la gestión financiera diaria — <strong>contrato de 3 años</strong>, único desarrollador Android</li>
+          <li>Entrega de una <strong>UI 100% Compose</strong> con Material Design 3, almacenamiento cifrado y caché API — <strong>85%+ de cobertura de tests</strong></li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">Navwei</div>
+            <div class="exp-role">Lead Ingeniero Android · Freelance</div>
+          </div>
+          <span class="exp-date">2021 · Remote</span>
+        </div>
+        <div class="exp-stack"><strong>Stack:</strong> Clean Architecture · Hilt · LiveData · Coroutines · MVVM · Multi-module</div>
+        <ul class="exp-bullets">
+          <li>Liderazgo de la evolución técnica de una app de navegación interior para <strong>50+ centros comerciales y aeropuertos</strong></li>
+          <li>Refactorización del código legacy hacia <strong>Clean Architecture (8 módulos)</strong>, reducción del tiempo de compilación en <strong>~30%</strong></li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<!-- ===================== PAGE 2 ===================== -->
+<div class="page page-break">
+
+  <aside class="sidebar sidebar-page2">
+
+    <div class="sidebar-p2-continuation">
+      <div class="sidebar-p2-name">ISMAEL DI MARTINO</div>
+      <div class="sidebar-p2-role">Ingeniero Android Senior</div>
+    </div>
+
+    <div class="sidebar-section" style="padding-top:0;">
+      <div class="sidebar-title">Competencias Técnicas</div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">Lenguajes & Plataformas</div>
+        <div class="skill-tags">
+          <span class="skill-tag highlight">Kotlin</span><span class="skill-tag highlight">KMP</span><span class="skill-tag">Java</span><span class="skill-tag">Android SDK</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">System Design & Arquitectura</div>
+        <div class="skill-tags">
+          <span class="skill-tag gold">System Design</span><span class="skill-tag highlight">Clean Architecture</span><span class="skill-tag highlight">MVVM</span><span class="skill-tag">MVI</span><span class="skill-tag">SOLID</span><span class="skill-tag">Multi-módulo</span><span class="skill-tag">Offline-First</span><span class="skill-tag">Diseño Escalable</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">UI & Frameworks</div>
+        <div class="skill-tags">
+          <span class="skill-tag highlight">Jetpack Compose</span><span class="skill-tag">Material Design 3</span><span class="skill-tag">Navigation</span><span class="skill-tag">Room</span><span class="skill-tag">WorkManager</span><span class="skill-tag">Custom Views</span><span class="skill-tag">Accesibilidad</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">Asíncrono & Reactivo</div>
+        <div class="skill-tags">
+          <span class="skill-tag highlight">Coroutines</span><span class="skill-tag highlight">Flow / StateFlow</span><span class="skill-tag">LiveData</span><span class="skill-tag">RxJava</span><span class="skill-tag">Channels</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">Inyección de Dependencias</div>
+        <div class="skill-tags">
+          <span class="skill-tag highlight">Hilt</span><span class="skill-tag">Koin</span><span class="skill-tag">Dagger 2</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">Red & Datos</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Retrofit</span><span class="skill-tag">Ktor</span><span class="skill-tag">GraphQL</span><span class="skill-tag">APIs REST</span><span class="skill-tag">OkHttp</span><span class="skill-tag">Moshi / Gson</span><span class="skill-tag">Protobuf</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">Testing & Calidad</div>
+        <div class="skill-tags">
+          <span class="skill-tag">JUnit</span><span class="skill-tag">Mockito / MockK</span><span class="skill-tag">Espresso</span><span class="skill-tag">UI Automator</span><span class="skill-tag">TDD</span><span class="skill-tag">Lint / Detekt</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">CI/CD & DevOps</div>
+        <div class="skill-tags">
+          <span class="skill-tag">GitHub Actions</span><span class="skill-tag">Bitrise</span><span class="skill-tag">Jenkins</span><span class="skill-tag">Fastlane</span><span class="skill-tag">Git / GitFlow</span><span class="skill-tag">ProGuard / R8</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">Cloud, Monitoreo & Herramientas</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Firebase Suite</span><span class="skill-tag">Crashlytics</span><span class="skill-tag">Analytics</span><span class="skill-tag">Cloud Messaging</span><span class="skill-tag">Android Studio</span><span class="skill-tag">Profiler</span><span class="skill-tag">LeakCanary</span><span class="skill-tag">Gradle / KTS</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">Rendimiento & Optimización</div>
+        <div class="skill-tags">
+          <span class="skill-tag gold">Optim. Rendimiento</span><span class="skill-tag">Gestión Memoria</span><span class="skill-tag">App Startup</span><span class="skill-tag">Baseline Profiles</span><span class="skill-tag">Reducción APK</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-category-title">IA & Machine Learning</div>
+        <div class="skill-tags">
+          <span class="skill-tag ai">Integración LLM</span><span class="skill-tag ai">Prompt Engineering</span><span class="skill-tag ai">Gemini API</span><span class="skill-tag">ML Kit</span><span class="skill-tag">IA On-device</span><span class="skill-tag">Revisión Código IA</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Soft Skills</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Empatía</span><span class="skill-tag">Comunicación</span><span class="skill-tag">Pensamiento Crítico</span><span class="skill-tag">Resolución de Problemas</span><span class="skill-tag">Inteligencia Emocional</span><span class="skill-tag">Creatividad</span><span class="skill-tag">Liderazgo Técnico</span><span class="skill-tag">Mentoría</span><span class="skill-tag">Escucha Activa</span>
+      </div>
+    </div>
+
+  </aside>
+
+  <main class="main">
+
+    <div class="section">
+      <div class="section-title">Experiencia Profesional (cont.)</div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">Kard ⭐</div>
+            <div class="exp-role">Ingeniero Android Senior · Freelance</div>
+          </div>
+          <span class="exp-date">2019–2021 · Remote</span>
+        </div>
+        <div class="exp-stack"><strong>Stack:</strong> GraphQL · Coroutines · Koin · MVVM · Jetpack · Room · Clean Code · Agile</div>
+        <ul class="exp-bullets">
+          <li>Contribuidor clave de una <strong>aplicación fintech de alto perfil</strong> alcanzando <strong>100K+ instalaciones</strong> y una <strong>valoración de 4.5★</strong> en Google Play</li>
+          <li>Desarrollo de funcionalidades bancarias principales — cuentas en tiempo real, transacciones, análisis de gastos — mediante <strong>API GraphQL</strong> en un <strong>equipo de 6 ingenieros</strong></li>
+          <li>Diseño de la <strong>arquitectura de flujo de datos</strong> con streams reactivos, reducción de la recomposición UI en <strong>~35%</strong> y mejora del rendimiento de desplazamiento</li>
+          <li>Promoción de las <strong>buenas prácticas de clean code</strong> y revisiones de código — <strong>reducción de la tasa de bugs en ~25%</strong> en los ciclos de sprint</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">CO ORGANIZ</div>
+            <div class="exp-role">Lead Ingeniero Android · Freelance</div>
+          </div>
+          <span class="exp-date">2018–2019 · Remote</span>
+        </div>
+        <div class="exp-stack"><strong>Stack:</strong> Kotlin · Java · MVP · Dagger · Android Jetpack</div>
+        <ul class="exp-bullets">
+          <li>Liderazgo del <strong>desarrollo y rediseño completo de UI/UX</strong> de una app colaborativa de gestión de tareas — <strong>10K+ usuarios activos</strong></li>
+          <li>Migración MVC → MVP con Dagger DI, <strong>cobertura de tests del ~10% al ~60%</strong> y reducción de la tasa de crashes en <strong>~40%</strong></li>
+          <li>Introducción de componentes Jetpack y estándares de código que aceleraron la entrega de funcionalidades</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">Inicio de Carrera</div>
+            <div class="exp-role">Desarrollador Android · Freelance & Tiempo Completo</div>
+          </div>
+          <span class="exp-date">2012–2017</span>
+        </div>
+        <div class="early-career">
+          <div class="early-career-item"><strong>IKOMOBI (2016–2017)</strong> – Mantenimiento de apps Android para grandes marcas: AuchanDirect, AuchanDrive, Acticall, Toupargel</div>
+          <div class="early-career-item"><strong>MobStock (2016)</strong> – Desarrollo de la app Android BusinessTable para gestión de inventario empresarial</div>
+          <div class="early-career-item"><strong>Bsoft Lyon (2015–2016)</strong> – Prácticas → contrato: desarrollo Android & Symfony2</div>
+          <div class="early-career-item"><strong>Buzzenville, LeBonbon.fr, Veriftech</strong> – Múltiples proyectos Android como freelance</div>
+          <div class="early-career-item"><strong>Shaman, Cubiq, Naolis (2012–2015)</strong> – Prácticas en desarrollo Android & full-stack</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Proyectos Destacados & Logros</div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-card-icon">💳</div>
+          <div class="project-card-title">App Fintech Kard</div>
+          <div class="project-card-desc">Contribuidor principal de una app bancaria moderna para la Gen Z — experiencia financiera fluida</div>
+          <span class="project-card-badge">🏆 100.000+ DESCARGAS · 4.5★</span>
+        </div>
+        <div class="project-card">
+          <div class="project-card-icon">🤖</div>
+          <div class="project-card-title">Consultor IA / LLM</div>
+          <div class="project-card-desc">Evaluación experta de código y prompt engineering - Entrenamiento y evaluación de IA</div>
+          <span class="project-card-badge ai-badge">IA · 2024–PRESENTE</span>
+        </div>
+        <div class="project-card">
+          <div class="project-card-icon">📈</div>
+          <div class="project-card-title">App de Trading Crypto</div>
+          <div class="project-card-desc">Proyecto personal con datos de mercado en tiempo real, gráficos en vivo y señales automatizadas</div>
+          <span class="project-card-badge">PROYECTO PERSONAL</span>
+        </div>
+        <div class="project-card">
+          <div class="project-card-icon">🎵</div>
+          <div class="project-card-title">Sello Musical & E-Commerce</div>
+          <div class="project-card-desc">Fundación de un sello (2014), tiendas Shopify, marketing digital, Facebook ads & automatización</div>
+          <span class="project-card-badge">EMPRENDIMIENTO</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+</div><!-- end lang-es -->
+
+
 <script>
 function switchLang(lang) {
   const enBlock = document.getElementById('resume-en');
   const frBlock = document.getElementById('resume-fr');
+  const esBlock = document.getElementById('resume-es');
   const btnEn = document.getElementById('btn-en');
   const btnFr = document.getElementById('btn-fr');
+  const btnEs = document.getElementById('btn-es');
   const htmlEl = document.documentElement;
 
+  // Hide all
+  enBlock.style.display = 'none';
+  frBlock.style.display = 'none';
+  esBlock.style.display = 'none';
+  btnEn.classList.remove('active');
+  btnFr.classList.remove('active');
+  btnEs.classList.remove('active');
+  btnEn.setAttribute('aria-pressed', 'false');
+  btnFr.setAttribute('aria-pressed', 'false');
+  btnEs.setAttribute('aria-pressed', 'false');
+
   if (lang === 'fr') {
-    enBlock.style.display = 'none';
     frBlock.style.display = 'contents';
-    btnEn.classList.remove('active');
     btnFr.classList.add('active');
-    btnEn.setAttribute('aria-pressed', 'false');
     btnFr.setAttribute('aria-pressed', 'true');
     htmlEl.setAttribute('lang', 'fr');
     document.title = 'Ismael Di Martino – Ingénieur Android Senior';
+  } else if (lang === 'es') {
+    esBlock.style.display = 'contents';
+    btnEs.classList.add('active');
+    btnEs.setAttribute('aria-pressed', 'true');
+    htmlEl.setAttribute('lang', 'es');
+    document.title = 'Ismael Di Martino – Ingeniero Android Senior';
   } else {
-    frBlock.style.display = 'none';
     enBlock.style.display = 'contents';
-    btnFr.classList.remove('active');
     btnEn.classList.add('active');
-    btnFr.setAttribute('aria-pressed', 'false');
     btnEn.setAttribute('aria-pressed', 'true');
     htmlEl.setAttribute('lang', 'en');
     document.title = 'Ismael Di Martino – Senior Android Engineer';
